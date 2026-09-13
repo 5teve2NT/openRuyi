@@ -6,6 +6,11 @@
 # Originally extracted from Fedora Project
 # Authors: The Fedora Project Contributors
 
+# LTO is not supported by .NET's native/AOT build: it makes the compiler/tool
+# binaries misbehave (the source-built `ilc` segfaults on riscv64).
+# amd64 is not affected for some reason, needs further triage.
+%global _lto_cflags %{nil}
+
 %global toolchain clang
 
 %define __os_install_post %{nil}
