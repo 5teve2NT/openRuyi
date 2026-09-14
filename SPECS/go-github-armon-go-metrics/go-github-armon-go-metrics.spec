@@ -12,7 +12,6 @@
 %define go_test_exclude %{shrink:
     %{go_import_path}
     %{go_import_path}/circonus
-    %{go_import_path}/datadog
     %{go_import_path}/prometheus
 }
 
@@ -29,7 +28,7 @@ BuildSystem:    golangmodules
 
 BuildRequires:  go
 BuildRequires:  go-rpm-macros
-BuildRequires:  go(github.com/DataDog/datadog-go)
+BuildRequires:  go(github.com/DataDog/datadog-go) >= 4.8.3
 BuildRequires:  go(github.com/beorn7/perks)
 BuildRequires:  go(github.com/cespare/xxhash/v2)
 BuildRequires:  go(github.com/circonus-labs/circonus-gometrics)
@@ -89,8 +88,8 @@ cp -a %{buildroot}%{go_sys_gopath}/%{go_import_path} \
 # The default golangmodules check only copies %{go_import_path} into the
 # temporary GOPATH. This module's compat packages import the old
 # github.com/armon/go-metrics path, so copy both paths before running tests.
-# Run only the compat packages that do not need excluded sink packages or OBS
-# local socket behavior; this mirrors go_test_exclude for the custom check.
+# Run the Datadog sink and compat packages that do not need excluded sinks or
+# OBS local socket behavior; this mirrors go_test_exclude for the custom check.
 # - HNO3Miracle
 %check
 export GO111MODULE=off
@@ -103,6 +102,7 @@ cp -a %{_builddir}/go/src/%{go_import_path} \
       %{_builddir}/go/src/%{go_compat_import_path}
 cd %{_builddir}/go/src/%{go_import_path}
 go test -v \
+    %{go_import_path}/datadog \
     %{go_import_path}/compat/circonus \
     %{go_import_path}/compat/datadog \
     %{go_import_path}/compat/prometheus
