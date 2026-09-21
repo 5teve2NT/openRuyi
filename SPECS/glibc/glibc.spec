@@ -1,13 +1,17 @@
-# SPDX-FileCopyrightText: (C) 2025 Institute of Software, Chinese Academy of Sciences (ISCAS)
-# SPDX-FileCopyrightText: (C) 2025 openRuyi Project Contributors
+# SPDX-FileCopyrightText: (C) 2025-2026 Institute of Software, Chinese Academy of Sciences (ISCAS)
+# SPDX-FileCopyrightText: (C) 2025-2026 openRuyi Project Contributors
 # SPDX-FileContributor: Zheng Junjie <zhengjunjie@iscas.ac.cn>
 # SPDX-FileContributor: laokz <zhangkai@iscas.ac.cn>
 # SPDX-FileContributor: misaka00251 <liuxin@iscas.ac.cn>
+# SPDX-FileContributor: Han Gao <gaohan@iscas.ac.cn>
 #
 # SPDX-License-Identifier: MulanPSL-2.0
 
 # Originally extracted from openSUSE
 # Authors: SUSE LLC and contributors
+
+%define upstream_version %{lua:print(rpm.expand("%{version}"):match("^[^+]+"))}
+%global git_commit 1f5026241027260e9280039698bca031484c82ad
 
 # Disable LTO due to a usage of top-level assembler that causes LTO issues
 %global _lto_cflags %{nil}
@@ -24,11 +28,12 @@
 Name:           glibc
 Summary:        Standard Shared Libraries (from the GNU C Library)
 License:        GPL-2.0-or-later AND LGPL-2.1-or-later AND LGPL-2.1-or-later WITH GCC-exception-2.0 AND GPL-3.0-or-later
-Version:        2.44
+Version:        2.44+git20260918.1f5026241027
 Release:        %autorelease
 URL:            https://www.gnu.org/software/libc/libc.html
-#!RemoteAsset:  sha256:37f600f2bef3c5e8300147059568b2a2e40a7ad6ccc65ce942556d49429cc667
-Source0:        https://ftpmirror.gnu.org/gnu/glibc/glibc-%{version}.tar.xz
+VCS:            git:https://forge.sourceware.org/glibc/glibc-mirror.git
+#!RemoteAsset:  sha256:9475c022bc2b201ba6455ae6bfb4c59c5c675d8a7065b61ad2db646c1003c699
+Source0:        https://forge.sourceware.org/glibc/glibc-mirror/archive/%{git_commit}.tar.gz#/%{name}-%{version}.tar.gz
 %if %{with nscd}
 Source2:        nscd.tmpfiles
 Source3:        nscd.service
@@ -171,7 +176,7 @@ performance with NIS, NIS+, and LDAP.
 %endif
 
 %prep
-%autosetup -n glibc-%{version} -p1
+%autosetup -n glibc-mirror -p1
 
 %build
 uname -a
@@ -546,7 +551,7 @@ rpm.spawn({"%{_sbindir}/ldconfig"})
 %{_libdir}/libm.a
 %{_libdir}/libresolv.a
 %ifarch x86_64
-%{_libdir}/libm-%{version}.a
+%{_libdir}/libm-%{upstream_version}.a
 %{_libdir}/libmvec.a
 %endif
 
