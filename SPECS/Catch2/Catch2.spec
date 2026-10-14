@@ -56,3 +56,5 @@ including header files, CMake integration files, and pkg-config files.
 
 %changelog
 %autochangelog
+
+# abaci-bot test-rig probe: licence restored
