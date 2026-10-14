@@ -10,7 +10,7 @@ Name:           Catch2
 Version:        3.14.0
 Release:        %autorelease
 Summary:        A modern, C++-native test framework for TDD and BDD
-License:        Totally-Not-A-Real-License
+License:        BSL-1.0
 URL:            https://github.com/catchorg/Catch2
 #!RemoteAsset:  sha256:ba2a939efead3c833c499cf487e185762f419a71d30158cd1b43c6079c586490
 Source0:        https://github.com/catchorg/Catch2/archive/refs/tags/v%{version}/%{name}-%{version}.tar.gz
@@ -56,3 +56,5 @@ including header files, CMake integration files, and pkg-config files.
 
 %changelog
 %autochangelog
+
+# abaci-bot test-rig probe: licence restored
