@@ -20,7 +20,7 @@ Name:           openssl
 Version:        3.6.3
 Release:        %autorelease
 Summary:        Cryptography and SSL/TLS Toolkit
-License:        Apache-2.0
+License:        ASL 2.0
 URL:            https://www.openssl.org/
 VCS:            git:https://github.com/openssl/openssl.git
 #!RemoteAsset:  sha256:243a86649cf6f23eeb6a2ff2456e09e5d77dd9018a54d3d96b0c6bdd6ba6c7f1
