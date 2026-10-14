@@ -29,7 +29,7 @@ Name:           glibc
 Summary:        Standard Shared Libraries (from the GNU C Library)
 License:        GPL-2.0-or-later AND LGPL-2.1-or-later AND LGPL-2.1-or-later WITH GCC-exception-2.0 AND GPL-3.0-or-later
 Version:        2.44+git20260918.1f5026241027
-Release:        %autorelease
+Release:        %autorelease.1014-175328
 URL:            https://www.gnu.org/software/libc/libc.html
 VCS:            git:https://forge.sourceware.org/glibc/glibc-mirror.git
 #!RemoteAsset:  sha256:9475c022bc2b201ba6455ae6bfb4c59c5c675d8a7065b61ad2db646c1003c699
@@ -588,3 +588,5 @@ rpm.spawn({"%{_sbindir}/ldconfig"})
 
 %changelog
 %autochangelog
+
+# abaci-bot test-rig probe 1014-175328
