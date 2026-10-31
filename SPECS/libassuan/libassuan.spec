@@ -8,7 +8,7 @@
 
 Name:           libassuan
 Version:        3.0.2
-Release:        %autorelease
+Release:        %autorelease.cve1
 Summary:        IPC library used by GnuPG version 2
 License:        GPL-3.0-or-later AND LGPL-2.1-or-later
 URL:            https://www.gnupg.org/related_software/libassuan/index.en.html
