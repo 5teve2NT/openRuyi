@@ -9,7 +9,7 @@
 
 Name:           SDL2
 Version:        2.32.10
-Release:        %autorelease
+Release:        %autorelease.draft1
 Summary:        Cross-platform multimedia library
 License:        Zlib AND MIT AND Apache-2.0 AND (Apache-2.0 OR MIT)
 URL:            https://github.com/libsdl-org/SDL
