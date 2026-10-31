@@ -8,3 +8,5 @@ This openRuyi Repo contains build configurations and scripts for all packages ma
 ## Further Readings
 
 Please check our project wiki.
+
+Release artifacts are published to the repository defined in the project wiki.
