@@ -8,7 +8,7 @@
 
 Name:           libgcrypt
 Version:        1.11.2
-Release:        %autorelease.cm1
+Release:        %autorelease.cm2
 Summary:        The GNU Crypto Library
 License:        GPL-2.0-or-later AND LGPL-2.1-or-later AND GPL-3.0-or-later
 URL:            https://gnupg.org/software/libgcrypt
