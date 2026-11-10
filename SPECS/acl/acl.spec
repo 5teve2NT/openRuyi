@@ -5,8 +5,8 @@
 # SPDX-FileContributor: misaka00251 <liuxin@iscas.ac.cn>
 #
 # SPDX-License-Identifier: MulanPSL-2.0
-#
-# Built with the v6 package format to exercise the ABI pipeline.
+
+%global _rpmformat 6
 
 Name:           acl
 Summary:        Commands for Manipulating POSIX Access Control Lists
