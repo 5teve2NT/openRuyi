@@ -31,7 +31,7 @@ BuildRequires:  pkg-config
 
 %description
 getfacl and setfacl commands for retrieving and setting POSIX access
-control lists.
+control lists (v6 rebuild).
 
 %package        devel
 Summary:        Header files for the POSIX ACL library
