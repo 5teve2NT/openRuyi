@@ -15,6 +15,7 @@ License:        BSD-3-Clause WITH PCRE2-exception
 URL:            https://pcre2project.github.io/pcre2/
 VCS:            git:https://github.com/PCRE2Project/pcre2.git
 #!RemoteAsset:  sha256:53c156e1ba416a20da8e65395daa132da0d80e76910424caca3fcdae7831d384
+%define _binary_payload w7.lzdio
 Source0:        https://github.com/PCRE2Project/pcre2/releases/download/pcre2-%{version}/pcre2-%{version}.tar.bz2
 BuildSystem:    autotools
 
