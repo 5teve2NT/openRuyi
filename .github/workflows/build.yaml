@@ -46,9 +46,10 @@ jobs:
           ${{ runner.os }}-
     - name: Install tools
       run: |
-        echo "deb http://download.opensuse.org/repositories/openSUSE:/Tools/xUbuntu_24.04/ /" | sudo tee /etc/apt/sources.list.d/obs.list
-        wget -qO - http://download.opensuse.org/repositories/openSUSE:/Tools/xUbuntu_24.04/Release.key | sudo apt-key add -
-        sudo apt update && sudo apt install osc obs-build libwww-perl libxml-parser-perl -y
+        sudo mkdir -p /etc/apt/keyrings
+        wget -qO- http://download.opensuse.org/repositories/openSUSE:/Tools/xUbuntu_24.04/Release.key | sudo gpg --dearmor -o /etc/apt/keyrings/obs.gpg
+        echo "deb [signed-by=/etc/apt/keyrings/obs.gpg] http://download.opensuse.org/repositories/openSUSE:/Tools/xUbuntu_24.04/ /" | sudo tee /etc/apt/sources.list.d/obs.list
+        sudo apt-get update && sudo apt-get install osc obs-build libwww-perl libxml-parser-perl -y
     - name: apply pbuild patch
       run: |
         sudo patch --directory=/ --strip=1 -i $(pwd)/.github/build/pbuild.patch
