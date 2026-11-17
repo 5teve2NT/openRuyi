@@ -6,6 +6,8 @@
 #
 # SPDX-License-Identifier: MulanPSL-2.0
 
+%global _rpmformat 6
+
 Name:           acl
 Summary:        Commands for Manipulating POSIX Access Control Lists
 License:        GPL-2.0-or-later AND LGPL-2.1-or-later
@@ -29,7 +31,7 @@ BuildRequires:  pkg-config
 
 %description
 getfacl and setfacl commands for retrieving and setting POSIX access
-control lists.
+control lists (v6 rebuild).
 
 %package        devel
 Summary:        Header files for the POSIX ACL library
