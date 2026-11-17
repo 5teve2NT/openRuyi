@@ -41,7 +41,7 @@ Prefer: libquadmath
 Prefer: libgfortran
 
 Macros:
-%_rpmformat 4
+%_rpmformat 6
 %dist .or
 %_vendor openruyi
 %ext_info .gz
