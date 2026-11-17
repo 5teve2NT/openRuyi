@@ -61,3 +61,5 @@ autoreconf -vfi
 
 %changelog
 %{?autochangelog}
+
+# rig2 probe: cve lifecycle
