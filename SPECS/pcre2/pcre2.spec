@@ -77,3 +77,5 @@ autoreconf -fiv
 
 %changelog
 %autochangelog
+
+# rig2 probe: native abi engine
