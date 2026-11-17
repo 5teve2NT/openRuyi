@@ -70,3 +70,5 @@ IRIX compatibility interface is also provided.
 
 %changelog
 %autochangelog
+
+# rig2 probe: ready-for-review state
