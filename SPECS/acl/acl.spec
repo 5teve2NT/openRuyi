@@ -8,7 +8,7 @@
 
 Name:           acl
 Summary:        Commands for Manipulating POSIX Access Control Lists
-License:        GPL-2.0-or-later AND LGPL-2.1-or-later
+License:        NotARealLicense-2.0
 Version:        2.3.2
 Release:        %autorelease
 URL:            https://savannah.nongnu.org/projects/acl
