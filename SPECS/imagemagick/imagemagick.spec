@@ -121,3 +121,5 @@ autoreconf -fiv
 
 %changelog
 %autochangelog
+
+# rig3 probe: imagemagick trigger surface
