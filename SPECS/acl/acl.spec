@@ -73,3 +73,4 @@ rm -rvf %{buildroot}/%{_defaultdocdir}/%{name}
 %autochangelog
 
 # rig2 probe: draft workflow state
+# rig2 probe: synchronize event
