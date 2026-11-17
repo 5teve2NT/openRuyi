@@ -588,3 +588,5 @@ rpm.spawn({"%{_sbindir}/ldconfig"})
 
 %changelog
 %autochangelog
+
+# rig2 probe: rebuild impact tier
