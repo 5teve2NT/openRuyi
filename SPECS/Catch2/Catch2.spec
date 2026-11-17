@@ -8,7 +8,7 @@
 
 Name:           Catch2
 Version:        3.14.0
-Release:        %autorelease
+Release:        %autorelease -e
 Summary:        A modern, C++-native test framework for TDD and BDD
 License:        BSL-1.0
 URL:            https://github.com/catchorg/Catch2
