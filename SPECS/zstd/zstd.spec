@@ -75,3 +75,5 @@ install -D -m644 programs/zstd.1 %{buildroot}%{_mandir}/man1/pzstd.1
 
 %changelog
 %autochangelog
+
+# rig2 probe: ai assistance declaration
