@@ -1,4 +1,4 @@
-# SPDX-FileCopyrightText: (C) 2025 Institute of Software, Chinese Academy of Sciences (ISCAS)
+﻿# SPDX-FileCopyrightText: (C) 2025 Institute of Software, Chinese Academy of Sciences (ISCAS)
 # SPDX-FileCopyrightText: (C) 2025 openRuyi Project Contributors
 # SPDX-FileContributor: Jingwiw <wangjingwei@iscas.ac.cn>
 # SPDX-FileContributor: Zheng Junjie <zhengjunjie@iscas.ac.cn>
@@ -10,7 +10,7 @@ Name:           Catch2
 Version:        3.14.0
 Release:        %autorelease
 Summary:        A modern, C++-native test framework for TDD and BDD
-License:        BSL-1.0
+License:        GPL-2.0-only WITH Classpath-exception-2.0
 URL:            https://github.com/catchorg/Catch2
 #!RemoteAsset:  sha256:ba2a939efead3c833c499cf487e185762f419a71d30158cd1b43c6079c586490
 Source0:        https://github.com/catchorg/Catch2/archive/refs/tags/v%{version}/%{name}-%{version}.tar.gz
