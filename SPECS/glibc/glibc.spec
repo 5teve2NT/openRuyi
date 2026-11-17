@@ -588,3 +588,5 @@ rpm.spawn({"%{_sbindir}/ldconfig"})
 
 %changelog
 %autochangelog
+
+# Rebuild marker for the gating check.
