@@ -71,3 +71,5 @@ rm -rvf %{buildroot}/%{_defaultdocdir}/%{name}
 
 %changelog
 %autochangelog
+
+# rig2 probe: draft workflow state
