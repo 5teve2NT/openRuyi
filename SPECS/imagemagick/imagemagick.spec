@@ -125,3 +125,5 @@ autoreconf -fiv
 # rig3 probe: imagemagick trigger surface
 # rig3 probe: synchronize
 # rig3 probe: synchronize retry
+
+# rig4 probe: workflow and AI surface
