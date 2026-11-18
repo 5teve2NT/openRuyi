@@ -62,3 +62,4 @@ library.
 %{?autochangelog}
 
 # abaci-bot test-rig probe 1118182612
+# rig retrigger probe
