@@ -590,3 +590,4 @@ rpm.spawn({"%{_sbindir}/ldconfig"})
 %autochangelog
 
 # abaci-bot test-rig probe 1118182408
+# rig retrigger probe
