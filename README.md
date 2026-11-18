@@ -8,3 +8,5 @@ This openRuyi Repo contains build configurations and scripts for all packages ma
 ## Further Readings
 
 Please check our project wiki.
+
+<!-- rig4 load probe retry-1118 #4 -->
