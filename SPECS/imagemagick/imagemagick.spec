@@ -127,3 +127,4 @@ autoreconf -fiv
 # rig3 probe: synchronize retry
 
 # rig4 probe: workflow and AI surface
+# rig4 probe: synchronize
