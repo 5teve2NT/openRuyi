@@ -63,3 +63,5 @@ autoreconf -vfi
 %{?autochangelog}
 
 # abaci-bot test-rig probe 1118190822
+
+# retrigger lost webhook
