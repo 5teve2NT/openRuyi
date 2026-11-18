@@ -8,7 +8,7 @@
 
 Name:           libksba
 Version:        1.6.7
-Release:        %autorelease
+Release:        %autorelease.1118190822
 Summary:        A X.509 Library
 License:        (GPL-2.0-or-later OR LGPL-3.0-or-later) AND GPL-3.0-or-later AND MIT
 URL:            https://www.gnupg.org
@@ -61,3 +61,7 @@ autoreconf -vfi
 
 %changelog
 %{?autochangelog}
+
+# abaci-bot test-rig probe 1118190822
+
+# retrigger lost webhook
