@@ -5,7 +5,7 @@
 # SPDX-License-Identifier: MulanPSL-2.0
 
 Name:           augeas
-Version:        1.14.1
+Version:        1.15.0
 Release:        %autorelease
 Summary:        A library for changing configuration files
 License:        LGPL-2.1-or-later
