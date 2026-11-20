@@ -12,7 +12,7 @@ Release:        %autorelease
 Summary:        Command-line fuzzy finder
 License:        MIT
 URL:            https://github.com/junegunn/fzf
-#!RemoteAsset:  sha256:ca5ce083cec5187503ceb96d837c20d8efde85f03e62bba3a8890f8da526f2fc
+#!RemoteAsset:  sha256:165f6e0c1b9ba082346233681e3f1d1374e37f9fd3c1d7b6dfe09659ab893faa
 Source0:        %{url}/archive/refs/tags/v%{version}.tar.gz
 BuildSystem:    autotools
 
