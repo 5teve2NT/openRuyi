@@ -9,12 +9,12 @@
 %define git_sha         d2809cf0019f84c221e026bb2ac6486d011b1d91
 
 Name:           etcd
-Version:        3.6.6
+Version:        3.7.4
 Release:        %autorelease
 Summary:        Distributed reliable key-value store
 License:        Apache-2.0
 URL:            https://github.com/etcd-io/etcd
-#!RemoteAsset:  sha256:371dd03b6ae1f6ed06496dbe53ffee5ec9126583184bf27c835047d1b0686d11
+#!RemoteAsset:  sha256:b0282ec3148c7cb379ac345efd92d7bc06888f656e6f0902c75918a65d796a76
 Source0:        %{url}/archive/refs/tags/v%{version}.tar.gz#/%{name}-%{version}.tar.gz
 # TODO: Use packaged Go module dependencies once the remaining etcd dependency
 # closure is available in openRuyi.
