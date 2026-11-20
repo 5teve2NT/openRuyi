@@ -8,12 +8,12 @@
 # SPDX-License-Identifier: MulanPSL-2.0
 
 Name:           dnf5
-Version:        5.4.2.0
+Version:        5.4.8.0
 Release:        %autorelease
 Summary:        Command-line package manager
 License:        GPL-2.0-or-later
 URL:            https://github.com/rpm-software-management/dnf5
-#!RemoteAsset:  sha256:fd37bad6c772bd0cc784a7a8808d530dfc06782f8dc7b225752eb296fcd1b7ad
+#!RemoteAsset:  sha256:09f279af798d01073873affb61d7d0ed999f0297e6491b7ffb84c6d755680292
 Source0:        https://github.com/rpm-software-management/dnf5/archive/%{version}/dnf5-%{version}.tar.gz
 BuildSystem:    cmake
 
