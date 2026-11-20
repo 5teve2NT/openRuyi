@@ -7,7 +7,7 @@
 %define go_import_path  github.com/junegunn/fzf
 
 Name:           fzf
-Version:        0.72.0
+Version:        0.75.0
 Release:        %autorelease
 Summary:        Command-line fuzzy finder
 License:        MIT
