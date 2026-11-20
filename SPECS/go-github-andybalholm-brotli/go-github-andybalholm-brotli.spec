@@ -8,7 +8,7 @@
 %define go_import_path  github.com/andybalholm/brotli
 
 Name:           go-github-andybalholm-brotli
-Version:        1.2.4
+Version:        1.3.0
 Release:        %autorelease
 Summary:        Pure Go Brotli encoder and decoder
 License:        MIT
