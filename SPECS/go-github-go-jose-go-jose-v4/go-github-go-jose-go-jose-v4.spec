@@ -8,7 +8,7 @@
 %define go_import_path  github.com/go-jose/go-jose
 
 Name:           go-github-go-jose-go-jose-v4
-Version:        4.1.4
+Version:        4.1.9
 Release:        %autorelease
 Summary:        An implementation of JOSE standards (JWE, JWS, JWT) in Go
 License:        Apache-2.0
