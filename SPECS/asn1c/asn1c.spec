@@ -7,7 +7,7 @@
 # SPDX-License-Identifier: MulanPSL-2.0
 
 Name:           asn1c
-Version:        0.9.28
+Version:        0.9.29
 Release:        %autorelease
 Summary:        ASN.1 Compiler
 License:        BSD-2-Clause
