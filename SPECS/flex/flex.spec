@@ -6,7 +6,7 @@
 # SPDX-License-Identifier: MulanPSL-2.0
 
 Name:           flex
-Version:        2.6.4
+Version:        2.7.2
 Release:        %autorelease
 Summary:        Fast Lexical Analyzer Generator
 License:        BSD-3-Clause
