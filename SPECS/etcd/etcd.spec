@@ -9,7 +9,7 @@
 %define git_sha         d2809cf0019f84c221e026bb2ac6486d011b1d91
 
 Name:           etcd
-Version:        3.6.6
+Version:        3.7.4
 Release:        %autorelease
 Summary:        Distributed reliable key-value store
 License:        Apache-2.0
