@@ -9,7 +9,7 @@
 %define go_import_path  github.com/klauspost/compress
 
 Name:           go-github-klauspost-compress
-Version:        1.20.0
+Version:        1.20.5
 Release:        %autorelease
 Summary:        Optimized Go Compression Packages
 License:        BSD-3-Clause AND Apache-2.0 AND MIT
