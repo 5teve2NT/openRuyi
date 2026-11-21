@@ -13,7 +13,7 @@ Release:        %autorelease
 Summary:        An implementation of JOSE standards (JWE, JWS, JWT) in Go
 License:        Apache-2.0
 URL:            https://github.com/go-jose/go-jose
-#!RemoteAsset:  sha256:a8c9fade9971831045e8b7d78f641546639f9f0088477e8d9717a637320c8004
+#!RemoteAsset:  sha256:2e692d1974d4bf83dfa8c71ca5f808f2ce604663a2352589b32c28e45793af0e
 Source0:        https://github.com/go-jose/go-jose/archive/v%{version}.tar.gz#/%{_name}-%{version}.tar.gz
 BuildArch:      noarch
 BuildSystem:    golangmodules
