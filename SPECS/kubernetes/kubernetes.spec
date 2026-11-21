@@ -7,7 +7,7 @@
 %define git_commit      6636cbce3bbef91ff61d36658757179426f9e1b2
 
 Name:           kubernetes
-Version:        1.35.5
+Version:        1.37.2
 Release:        %autorelease
 Summary:        Production-grade container orchestration system
 License:        Apache-2.0
