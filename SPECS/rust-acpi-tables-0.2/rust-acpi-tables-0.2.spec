@@ -4,11 +4,11 @@
 # SPDX-License-Identifier: MulanPSL-2.0
 
 %global crate_name acpi_tables
-%global full_version 0.2.0
+%global full_version 0.2.1
 %global pkgname acpi-tables-0.2
 
 Name:           rust-acpi-tables-0.2
-Version:        0.2.0
+Version:        0.2.1
 Release:        %autorelease
 Summary:        Rust crate "acpi_tables"
 License:        Apache-2.0
