@@ -4,11 +4,11 @@
 # SPDX-License-Identifier: MulanPSL-2.0
 
 %global crate_name aead
-%global full_version 0.6.0
+%global full_version 0.6.1
 %global pkgname aead-0.6
 
 Name:           rust-aead-0.6
-Version:        0.6.0
+Version:        0.6.1
 Release:        %autorelease
 Summary:        Rust crate "aead"
 License:        MIT OR Apache-2.0
