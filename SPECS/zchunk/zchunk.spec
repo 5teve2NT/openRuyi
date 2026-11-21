@@ -6,7 +6,7 @@
 # SPDX-License-Identifier: MulanPSL-2.0
 
 Name:           zchunk
-Version:        1.5.3
+Version:        1.5.5
 Release:        %autorelease
 Summary:        Compressed file format that allows easy deltas
 License:        BSD-2-Clause AND MIT
