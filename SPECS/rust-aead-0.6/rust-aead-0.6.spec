@@ -4,16 +4,16 @@
 # SPDX-License-Identifier: MulanPSL-2.0
 
 %global crate_name aead
-%global full_version 0.6.0
+%global full_version 0.6.1
 %global pkgname aead-0.6
 
 Name:           rust-aead-0.6
-Version:        0.6.0
+Version:        0.6.1
 Release:        %autorelease
 Summary:        Rust crate "aead"
 License:        MIT OR Apache-2.0
 URL:            https://github.com/RustCrypto/traits
-#!RemoteAsset:  sha256:ef60ac202874e574ce7a7158cc8bca7313dd344322482e4fadee288bf4a306b8
+#!RemoteAsset:  sha256:1973cfbc1a2daf9cf550e74e1f088c28e7f7d8c1e1418fb6c9dc5184b7e84c99
 Source:         https://static.crates.io/crates/%{crate_name}/%{full_version}/download#/%{name}-%{version}.tar.gz
 BuildArch:      noarch
 BuildSystem:    rustcrates
