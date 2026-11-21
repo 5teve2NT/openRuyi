@@ -4,11 +4,11 @@
 # SPDX-License-Identifier: MulanPSL-2.0
 
 %global crate_name aho-corasick
-%global full_version 1.1.4
+%global full_version 1.1.5
 %global pkgname aho-corasick-1
 
 Name:           rust-aho-corasick-1
-Version:        1.1.4
+Version:        1.1.5
 Release:        %autorelease
 Summary:        Rust crate "aho-corasick"
 License:        Unlicense OR MIT
