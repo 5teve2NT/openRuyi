@@ -14,7 +14,7 @@ Release:        %autorelease
 Summary:        Fast HTTP server and client API for Go
 License:        MIT
 URL:            https://github.com/valyala/fasthttp
-#!RemoteAsset:  sha256:623a66903b78637f1686749fc4f6d3fb239eddfd25629a006e3b53fea9624db1
+#!RemoteAsset:  sha256:828fa0bada584d0e948e46c76df98073b83377fcccf0085fdec9c594635f416f
 Source0:        https://github.com/valyala/fasthttp/archive/v%{version}.tar.gz#/%{_name}-%{version}.tar.gz
 BuildArch:      noarch
 BuildSystem:    golangmodules
