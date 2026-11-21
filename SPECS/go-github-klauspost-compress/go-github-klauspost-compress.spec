@@ -14,7 +14,7 @@ Release:        %autorelease
 Summary:        Optimized Go Compression Packages
 License:        BSD-3-Clause AND Apache-2.0 AND MIT
 URL:            https://github.com/klauspost/compress
-#!RemoteAsset:  sha256:aa2f6b6f1917454bddfe4ab6b653fc253311b8b1898c1005bb2f437a7aa1bcf0
+#!RemoteAsset:  sha256:a24e2e7390ebca5c90aa3de0dcb9f0108517acf2e4a9416180b2d60a104ce9cb
 Source0:        https://github.com/klauspost/compress/archive/v%{version}.tar.gz#/%{_name}-%{version}.tar.gz
 BuildArch:      noarch
 BuildSystem:    golangmodules
