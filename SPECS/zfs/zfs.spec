@@ -21,7 +21,7 @@
 %define systemd_svcs zfs-import-cache.service zfs-import-scan.service zfs-mount.service zfs-mount@.service zfs-share.service zfs-zed.service zfs.target zfs-import.target zfs-volume-wait.service zfs-volumes.target
 
 Name:           zfs
-Version:        2.4.1
+Version:        2.4.4
 Release:        %autorelease
 Summary:        Commands to control the kernel modules and libraries
 License:        CDDL
