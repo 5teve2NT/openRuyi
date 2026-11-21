@@ -9,7 +9,7 @@
 %define go_test_exclude github.com/valyala/fasthttp/fasthttpproxy
 
 Name:           go-github-valyala-fasthttp
-Version:        1.69.0
+Version:        1.79.0
 Release:        %autorelease
 Summary:        Fast HTTP server and client API for Go
 License:        MIT
