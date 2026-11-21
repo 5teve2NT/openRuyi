@@ -15,7 +15,7 @@
 }
 
 Name:           go-golang-x-net
-Version:        0.59.0
+Version:        0.63.0
 Release:        %autorelease
 Summary:        Go supplementary network libraries
 License:        BSD-3-Clause
