@@ -11,7 +11,7 @@ Release:        %autorelease
 Summary:        Fast Lexical Analyzer Generator
 License:        BSD-3-Clause
 URL:            https://github.com/westes/flex
-#!RemoteAsset:  sha256:e87aae032bf07c26f85ac0ed3250998c37621d95f8bd748b31f15b33c45ee995
+#!RemoteAsset:  sha256:b18bbc3622b2b9ebecd0423f4e110adfad8db51d0c5ada3f26660c7cb7c735ec
 Source:         https://github.com/westes/flex/releases/download/v%{version}/flex-%{version}.tar.gz
 BuildSystem:    autotools
 
