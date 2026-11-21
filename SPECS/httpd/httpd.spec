@@ -15,7 +15,7 @@
 %define mmnisa %{mmn}%{__isa_name}%{__isa_bits}
 
 Name:           httpd
-Version:        2.4.68
+Version:        2.4.71
 Release:        %autorelease
 Summary:        Apache HTTP Server
 License:        Apache-2.0
