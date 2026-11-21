@@ -14,7 +14,7 @@ Release:        %autorelease
 Summary:        Media Sharing Server
 License:        MIT
 URL:            https://gitlab.freedesktop.org/pipewire/pipewire
-#!RemoteAsset:  sha256:b9d137dcf18ff228d67312f9a205e3ea8766a13d9a841a029832568ea8928efe
+#!RemoteAsset:  sha256:f3f70c4af173cc93d05070a9d412efe3ef5889bdf4ac32298e2c0d9ae1350559
 Source0:        https://gitlab.freedesktop.org/pipewire/pipewire/-/archive/%{version}/pipewire-%{version}.tar.gz
 Source1:        pipewire.sysusers
 BuildSystem:    meson
