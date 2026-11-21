@@ -9,7 +9,7 @@
 %global spaversion   0.2
 
 Name:           pipewire
-Version:        1.5.84
+Version:        1.6.11
 Release:        %autorelease
 Summary:        Media Sharing Server
 License:        MIT
