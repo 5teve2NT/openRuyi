@@ -6,7 +6,7 @@
 # SPDX-License-Identifier: MulanPSL-2.0
 
 Name:           which
-Version:        2.23
+Version:        2.25
 Release:        %autorelease
 Summary:        Displays where a particular program in your path is located
 License:        GPL-3.0-or-later
