@@ -12,7 +12,7 @@ Release:        %autorelease
 Summary:        Production-grade container orchestration system
 License:        Apache-2.0
 URL:            https://github.com/kubernetes/kubernetes
-#!RemoteAsset:  sha256:c058972b598acb8fe08bc23e630e7e7582d86050bc78468c3026396a53ebc64b
+#!RemoteAsset:  sha256:6b1a4921ce0249a4607528e2b4f211c6aaeb2f03204bcabefabb3f6742ba67b8
 Source0:        %{url}/archive/refs/tags/v%{version}.tar.gz#/%{name}-%{version}.tar.gz
 Source1:        kubelet.service
 Source2:        10-kubeadm.conf
