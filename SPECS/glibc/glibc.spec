@@ -588,3 +588,4 @@ rpm.spawn({"%{_sbindir}/ldconfig"})
 
 %changelog
 %autochangelog
+
