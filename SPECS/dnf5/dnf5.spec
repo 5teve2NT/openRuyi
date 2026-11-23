@@ -8,7 +8,7 @@
 # SPDX-License-Identifier: MulanPSL-2.0
 
 Name:           dnf5
-Version:        5.4.2.0
+Version:        5.4.8.0
 Release:        %autorelease
 Summary:        Command-line package manager
 License:        GPL-2.0-or-later
