@@ -8,7 +8,8 @@
 
 Name:           libksba
 Version:        1.6.7
-Release:        %autorelease
+Release:        %autorelease.r28v
+# abaci-bot rig-r28 vulnerability probe
 Summary:        A X.509 Library
 License:        (GPL-2.0-or-later OR LGPL-3.0-or-later) AND GPL-3.0-or-later AND MIT
 URL:            https://www.gnupg.org
@@ -61,3 +62,4 @@ autoreconf -vfi
 
 %changelog
 %{?autochangelog}
+
