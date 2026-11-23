@@ -10,7 +10,8 @@ Name:           acl
 Summary:        Commands for Manipulating POSIX Access Control Lists
 License:        GPL-2.0-or-later AND LGPL-2.1-or-later
 Version:        2.3.2
-Release:        %autorelease
+Release:        %autorelease.r28cg
+# abaci-bot rig-r28 conversation-guard probe
 URL:            https://savannah.nongnu.org/projects/acl
 VCS:            git:https://git.savannah.nongnu.org/git/acl.git
 #!RemoteAsset:  sha256:97203a72cae99ab89a067fe2210c1cbf052bc492b479eca7d226d9830883b0bd
@@ -74,3 +75,4 @@ rm -rvf %{buildroot}/%{_defaultdocdir}/%{name}
 
 # rig2 probe: draft workflow state
 # rig2 probe: synchronize event
+
