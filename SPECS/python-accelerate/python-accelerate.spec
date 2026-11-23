@@ -7,7 +7,7 @@
 %global srcname accelerate
 
 Name:           python-accelerate
-Version:        1.13.0
+Version:        1.16.0
 Release:        %autorelease
 Summary:        Tools for distributed and mixed precision PyTorch training
 License:        MIT
