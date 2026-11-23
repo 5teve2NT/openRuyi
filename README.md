@@ -10,3 +10,5 @@ This openRuyi Repo contains build configurations and scripts for all packages ma
 Please check our project wiki.
 
 <!-- rig milestone merge probe 172658 -->
+
+<!-- rig-r28 WIP/draft workflow probe 20261123 -->
