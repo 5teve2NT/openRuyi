@@ -7,7 +7,7 @@
 # SPDX-License-Identifier: MulanPSL-2.0
 
 Name:           nghttp2
-Version:        1.69.0
+Version:        1.71.0
 Release:        %autorelease
 Summary:        Implementation of Hypertext Transfer Protocol version 2 in C
 License:        MIT
