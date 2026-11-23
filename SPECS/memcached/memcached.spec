@@ -12,7 +12,7 @@
 %bcond dtrace          0
 
 Name:           memcached
-Version:        1.6.28
+Version:        1.6.45
 Release:        %autorelease
 Summary:        In-memory caching service
 License:        BSD-3-Clause
