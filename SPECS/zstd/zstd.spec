@@ -10,7 +10,8 @@
 
 Name:           zstd
 Version:        1.5.7
-Release:        %autorelease
+Release:        %autorelease.r28stu
+# abaci-bot rig-r28 student contribution probe
 Summary:        A fast lossless compression algorithm
 License:        BSD-3-Clause AND GPL-2.0-only
 URL:            https://github.com/facebook/zstd
@@ -75,3 +76,4 @@ install -D -m644 programs/zstd.1 %{buildroot}%{_mandir}/man1/pzstd.1
 
 %changelog
 %autochangelog
+
