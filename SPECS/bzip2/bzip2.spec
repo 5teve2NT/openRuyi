@@ -11,7 +11,6 @@ Name:           bzip2
 Version:        1.0.8
 Release:        %autorelease
 Summary:        File compression utility
-License:        BSD-4-Clause
 URL:            https://sourceware.org/bzip2
 #!RemoteAsset
 Source0:        https://sourceware.org/pub/%{name}/%{name}-%{version}.tar.gz
@@ -102,3 +101,4 @@ ln -s bzgrep.1 $RPM_BUILD_ROOT%{_mandir}/man1/bzfgrep.1
 
 %changelog
 %{?autochangelog}
+
