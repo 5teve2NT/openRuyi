@@ -12,7 +12,7 @@ Release:        %autorelease
 Summary:        Convert HTML to text
 License:        Apache-2.0
 URL:            https://github.com/weblyzard/inscriptis
-#!RemoteAsset:  sha256:8735e3a12f32b48e345d77ef059339b445f687a553fb255eb4812d6414c05b11
+#!RemoteAsset:  sha256:d98d6a2e06dbc21f087a6938efa59fb5746483c0e4ee2174a93936633c5fab2d
 Source0:        https://files.pythonhosted.org/packages/source/i/%{srcname}/%{srcname}-%{version}.tar.gz
 BuildArch:      noarch
 BuildSystem:    pyproject
