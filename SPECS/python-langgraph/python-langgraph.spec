@@ -7,7 +7,7 @@
 %global srcname langgraph
 
 Name:           python-%{srcname}
-Version:        1.2.4
+Version:        1.2.24
 Release:        %autorelease
 Summary:        Stateful graph framework for building agents
 License:        MIT
