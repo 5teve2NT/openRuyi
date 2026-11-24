@@ -13,7 +13,7 @@ Release:        %autorelease
 Summary:        Mako template library for Python
 License:        MIT AND Python-2.0.1 AND BSD-3-Clause
 URL:            https://www.makotemplates.org/
-#!RemoteAsset:  sha256:9f778e93289bd410bb35daadeb4fc66d95a746f0b75777b942088b7fd7af550a
+#!RemoteAsset:  sha256:cd6537fe88d5fec315c55c2f8529bc4ce7a9a352ad7db3eeaa6a66e2dd4ec37a
 Source0:        https://files.pythonhosted.org/packages/source/m/%{srcname}/%{srcname}-%{version}.tar.gz
 BuildArch:      noarch
 BuildSystem:    pyproject
