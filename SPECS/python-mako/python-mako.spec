@@ -8,7 +8,7 @@
 %global srcname mako
 
 Name:           python-%{srcname}
-Version:        1.3.12
+Version:        1.4.3
 Release:        %autorelease
 Summary:        Mako template library for Python
 License:        MIT AND Python-2.0.1 AND BSD-3-Clause
