@@ -7,7 +7,7 @@
 %global srcname inscriptis
 
 Name:           python-%{srcname}
-Version:        2.7.4
+Version:        2.7.7
 Release:        %autorelease
 Summary:        Convert HTML to text
 License:        Apache-2.0
