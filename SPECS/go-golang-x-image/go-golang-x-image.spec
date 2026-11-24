@@ -10,7 +10,7 @@
 %define go_import_path  golang.org/x/image
 
 Name:           go-golang-x-image
-Version:        0.43.0
+Version:        0.48.0
 Release:        %autorelease
 Summary:        Go supplementary image libraries
 License:        BSD-3-Clause
