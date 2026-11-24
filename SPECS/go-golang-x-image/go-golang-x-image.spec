@@ -16,7 +16,7 @@ Summary:        Go supplementary image libraries
 License:        BSD-3-Clause
 URL:            https://golang.org/x/image
 VCS:            git:https://github.com/golang/image
-#!RemoteAsset:  sha256:ef01fe3167ddd606600c2c95ae6f892cb48a881b65da991516ec7a9b0b7324e4
+#!RemoteAsset:  sha256:23d30f8c929ad063d897273b4094418a3d6a059f15192ea06ccd8b860b01dedc
 Source0:        https://github.com/golang/image/archive/v%{version}.tar.gz#/%{_name}-%{version}.tar.gz
 BuildArch:      noarch
 BuildSystem:    golangmodules
