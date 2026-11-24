@@ -7,7 +7,7 @@
 %global srcname dnspython
 
 Name:           python-%{srcname}
-Version:        2.8.0
+Version:        2.9.2
 Release:        %autorelease
 Summary:        DNS toolkit for Python
 License:        ISC
