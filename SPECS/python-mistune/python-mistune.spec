@@ -7,7 +7,7 @@
 %global srcname mistune
 
 Name:           python-%{srcname}
-Version:        3.3.3
+Version:        3.4.0
 Release:        %autorelease
 Summary:        Fast and extensible Markdown parser in Python
 License:        BSD-3-Clause
