@@ -12,7 +12,7 @@ Release:        %autorelease
 Summary:        Fast and extensible Markdown parser in Python
 License:        BSD-3-Clause
 URL:            https://github.com/lepture/mistune
-#!RemoteAsset:  sha256:c4c6c0c840b8637a2e9b8b6d607eb7c8f00888bf14c754409bcd339e848c2477
+#!RemoteAsset:  sha256:2eaf7952af928ca8d33b779762effc1da517b62c6ad85ec8ca957e3b07b9782a
 Source0:        https://files.pythonhosted.org/packages/source/m/%{srcname}/%{srcname}-%{version}.tar.gz
 BuildArch:      noarch
 BuildSystem:    pyproject
