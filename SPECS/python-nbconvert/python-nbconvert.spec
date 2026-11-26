@@ -7,7 +7,7 @@
 %global srcname nbconvert
 
 Name:           python-%{srcname}
-Version:        7.17.1
+Version:        7.17.2
 Release:        %autorelease
 Summary:        Convert Jupyter notebooks to other formats
 License:        BSD-3-Clause
