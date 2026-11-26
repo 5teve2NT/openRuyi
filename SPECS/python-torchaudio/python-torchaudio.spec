@@ -13,7 +13,7 @@ Summary:        Audio library for PyTorch
 License:        BSD-2-Clause
 URL:            https://github.com/pytorch/audio
 # PyPI only provides prebuilt wheels for this release; build from GitHub source.
-#!RemoteAsset:  sha256:d0d0d9575025eb85150356a0b0de75b553484838006af17a62470b52d59845d1
+#!RemoteAsset:  sha256:594db84c91cb795a13853d1ee457d0f874dd95838b6f029eaaf518fb3838cdf5
 Source0:        %{url}/archive/refs/tags/v%{version}.tar.gz
 BuildSystem:    pyproject
 
