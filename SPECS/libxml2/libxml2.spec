@@ -8,7 +8,7 @@
 # SPDX-License-Identifier: MulanPSL-2.0
 
 Name:           libxml2
-Version:        2.14.5
+Version:        2.15.4
 Release:        %autorelease
 Summary:        A Library to Manipulate XML Files
 License:        MIT
