@@ -56,3 +56,5 @@ including header files, CMake integration files, and pkg-config files.
 
 %changelog
 %autochangelog
+
+# external fork PR probe 2026-11-27
