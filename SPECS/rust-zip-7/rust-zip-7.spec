@@ -4,11 +4,11 @@
 # SPDX-License-Identifier: MulanPSL-2.0
 
 %global crate_name zip
-%global full_version 7.2.0
+%global full_version 7.4.0
 %global pkgname zip-7
 
 Name:           rust-zip-7
-Version:        7.2.0
+Version:        7.4.0
 Release:        %autorelease
 Summary:        Rust crate "zip"
 License:        MIT
