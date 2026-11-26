@@ -3,7 +3,8 @@ Version: 0.1.0
 Release: 1
 Summary: probe
 License: MIT
-BuildRequires: cargo
+BuildSystem: rust
+BuildRequires: rust cargo
 %description
 probe
 %build
