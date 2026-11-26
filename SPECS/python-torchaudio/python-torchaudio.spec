@@ -7,7 +7,7 @@
 %global srcname torchaudio
 
 Name:           python-%{srcname}
-Version:        2.10.0
+Version:        2.11.1
 Release:        %autorelease
 Summary:        Audio library for PyTorch
 License:        BSD-2-Clause
