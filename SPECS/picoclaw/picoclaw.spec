@@ -8,7 +8,7 @@
 %define go_import_path  github.com/sipeed/picoclaw
 
 Name:           picoclaw
-Version:        0.2.3
+Version:        0.3.1
 Release:        %autorelease
 Summary:        Tiny, Fast, and Deployable anywhere — automate the mundane, unleash your creativity
 License:        MIT
