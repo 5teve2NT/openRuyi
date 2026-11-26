@@ -7,7 +7,7 @@
 %global srcname pyasn1
 
 Name:           python-%{srcname}
-Version:        0.6.3
+Version:        0.6.5
 Release:        %autorelease
 Summary:        ASN.1 tools for Python
 License:        BSD-2-Clause
