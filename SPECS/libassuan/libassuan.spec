@@ -8,7 +8,7 @@
 
 Name:           libassuan
 Version:        3.0.2
-Release:        %autorelease.r28abi
+Release:        %autorelease.r28abi.1127235356
 # abaci-bot rig-r28 ABI probe
 Summary:        IPC library used by GnuPG version 2
 License:        GPL-3.0-or-later AND LGPL-2.1-or-later
@@ -58,4 +58,4 @@ v2 server, but it uses it's own copy of libassuan.
 
 %changelog
 %{?autochangelog}
-
+# abaci-bot final-check clean ABI probe 1127235356
