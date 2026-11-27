@@ -6,7 +6,7 @@
 # SPDX-License-Identifier: MulanPSL-2.0
 
 Name:           libdisplay-info
-Version:        0.2.0
+Version:        0.4.0
 Release:        %autorelease
 Summary:        EDID and DisplayID library
 License:        MIT
