@@ -15,13 +15,13 @@
 %define mmnisa %{mmn}%{__isa_name}%{__isa_bits}
 
 Name:           httpd
-Version:        2.4.68
+Version:        2.4.71
 Release:        %autorelease
 Summary:        Apache HTTP Server
 License:        Apache-2.0
 URL:            https://httpd.apache.org/
 VCS:            git:https://github.com/apache/httpd.git
-#!RemoteAsset:  sha256:68c74d4df38c26bed4dfbdb8f3baf1eb532f3872357becc1bba5d136f6b63c06
+#!RemoteAsset:  sha256:2bc5da5a33c247341de082717d4ebcb5cb49e8b73a05b7fddf7d5d6dc2f8de62
 Source0:        https://www.apache.org/dist/httpd/httpd-%{version}.tar.bz2
 Source1:        config.layout
 Source2:        httpd.sysusers
