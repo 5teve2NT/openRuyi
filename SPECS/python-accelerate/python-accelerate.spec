@@ -7,13 +7,13 @@
 %global srcname accelerate
 
 Name:           python-accelerate
-Version:        1.13.0
+Version:        1.16.0
 Release:        %autorelease
 Summary:        Tools for distributed and mixed precision PyTorch training
 License:        MIT
 URL:            https://pypi.org/project/accelerate/
 VCS:            git:https://github.com/huggingface/accelerate
-#!RemoteAsset:  sha256:d631b4e0f5b3de4aff2d7e9e6857d164810dfc3237d54d017f075122d057b236
+#!RemoteAsset:  sha256:43c446b9affb145220946a63fe32e14e968fcfca645d25b5f1f3fdbc375657ae
 Source0:        https://files.pythonhosted.org/packages/source/a/%{srcname}/%{srcname}-%{version}.tar.gz
 BuildArch:      noarch
 BuildSystem:    pyproject
