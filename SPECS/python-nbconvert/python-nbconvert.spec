@@ -7,12 +7,12 @@
 %global srcname nbconvert
 
 Name:           python-%{srcname}
-Version:        7.17.1
+Version:        7.17.2
 Release:        %autorelease
 Summary:        Convert Jupyter notebooks to other formats
 License:        BSD-3-Clause
 URL:            https://github.com/jupyter/nbconvert
-#!RemoteAsset:  sha256:34d0d0a7e73ce3cbab6c5aae8f4f468797280b01fd8bd2ca746da8569eddd7d2
+#!RemoteAsset:  sha256:344a218e8595117ce37396ed025d994f146d076226ebac59255a2fa085ab24d8
 Source0:        https://files.pythonhosted.org/packages/source/n/%{srcname}/%{srcname}-%{version}.tar.gz
 BuildArch:      noarch
 BuildSystem:    pyproject
