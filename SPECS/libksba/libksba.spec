@@ -8,9 +8,9 @@
 
 Name:           libksba
 Version:        1.6.7
-Release:        %autorelease
+Release:        %autorelease.1128001310
 Summary:        A X.509 Library
-License:        (GPL-2.0-or-later OR LGPL-3.0-or-later) AND GPL-3.0-or-later AND MIT
+License:        Proprietary-Nope
 URL:            https://www.gnupg.org
 VCS:            git:https://git.gnupg.org/libksba.git
 #!RemoteAsset
@@ -61,3 +61,4 @@ autoreconf -vfi
 
 %changelog
 %{?autochangelog}
+# abaci-bot doc-links multi probe 1128001310
