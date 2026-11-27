@@ -5,12 +5,12 @@
 # SPDX-License-Identifier: MulanPSL-2.0
 
 Name:           hunspell
-Version:        1.7.3
+Version:        1.7.6
 Release:        %autorelease
 Summary:        A spell checker and morphological analyzer library
 License:        LGPL-2.1-or-later
 URL:            https://github.com/hunspell/hunspell
-#!RemoteAsset:  sha256:433274dac0619cb00c2e18b43a3dd3a9d50da5b5613fa9b5c21781e35dd76bc1
+#!RemoteAsset:  sha256:9c650ace31d4d8cc1da925a9507c3de1d50f1a54857af2f72429f517d5d53467
 Source0:        %{url}/releases/download/v%{version}/hunspell-%{version}.tar.gz
 BuildSystem:    autotools
 
