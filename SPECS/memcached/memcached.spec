@@ -12,13 +12,13 @@
 %bcond dtrace          0
 
 Name:           memcached
-Version:        1.6.28
+Version:        1.6.45
 Release:        %autorelease
 Summary:        In-memory caching service
 License:        BSD-3-Clause
 URL:            https://memcached.org/
 VCS:            git:https://github.com/memcached/memcached.git
-#!RemoteAsset:  sha256:b1d02d7e9887d80f4885a024931c8bbe9c16d333200d2dcadde8597892c54855
+#!RemoteAsset:  sha256:d362c64e6d8d5287153501eabf7c85b4a761432fbf53f5d7b085d0bb1653c1dd
 Source:         https://memcached.org/files/memcached-%{version}.tar.gz
 BuildSystem:    autotools
 
