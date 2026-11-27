@@ -4,16 +4,16 @@
 # SPDX-License-Identifier: MulanPSL-2.0
 
 %global crate_name aho-corasick
-%global full_version 1.1.4
+%global full_version 1.1.5
 %global pkgname aho-corasick-1
 
 Name:           rust-aho-corasick-1
-Version:        1.1.4
+Version:        1.1.5
 Release:        %autorelease
 Summary:        Rust crate "aho-corasick"
 License:        Unlicense OR MIT
 URL:            https://github.com/BurntSushi/aho-corasick
-#!RemoteAsset:  sha256:ddd31a130427c27518df266943a5308ed92d4b226cc639f5a8f1002816174301
+#!RemoteAsset:  sha256:c982642fa9e8606056828ee9a8505737230110bb1099153c79efe865c59d12ba
 Source:         https://static.crates.io/crates/%{crate_name}/%{full_version}/download#/%{name}-%{version}.tar.gz
 BuildArch:      noarch
 BuildSystem:    rustcrates
