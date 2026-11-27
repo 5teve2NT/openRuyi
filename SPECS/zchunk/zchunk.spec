@@ -6,12 +6,12 @@
 # SPDX-License-Identifier: MulanPSL-2.0
 
 Name:           zchunk
-Version:        1.5.3
+Version:        1.5.5
 Release:        %autorelease
 Summary:        Compressed file format that allows easy deltas
 License:        BSD-2-Clause AND MIT
 URL:            https://github.com/zchunk/zchunk
-#!RemoteAsset:  sha256:832381dafe192109742c141ab90a6bc0a9d7e9926a4bafbdf98f596680da2a95
+#!RemoteAsset:  sha256:2ab8ef54475aa2b2c0120fc6ae6d0788e0c3d4d4b671985edc6a19c8096a02cc
 Source0:        %{url}/archive/%{version}/zchunk-%{version}.tar.gz
 BuildSystem:    meson
 
