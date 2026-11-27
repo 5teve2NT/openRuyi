@@ -7,13 +7,13 @@
 %global srcname dnspython
 
 Name:           python-%{srcname}
-Version:        2.8.0
+Version:        2.9.2
 Release:        %autorelease
 Summary:        DNS toolkit for Python
 License:        ISC
 URL:            https://www.dnspython.org/
 VCS:            git:https://github.com/rthalley/dnspython
-#!RemoteAsset:  sha256:181d3c6996452cb1189c4046c61599b84a5a86e099562ffde77d26984ff26d0f
+#!RemoteAsset:  sha256:8d4d39a513e649d634004ce4d39ade2352efcea472a0247535a5c2d18a9d7ba9
 Source0:        https://files.pythonhosted.org/packages/source/d/%{srcname}/%{srcname}-%{version}.tar.gz
 BuildArch:      noarch
 BuildSystem:    pyproject
