@@ -12,7 +12,7 @@
 %bcond_with openssl
 
 Name:           curl
-Version:        8.3.0
+Version:        8.21.0
 Release:        %autorelease
 Summary:        A Tool for Transferring Data from URLs
 License:        curl
