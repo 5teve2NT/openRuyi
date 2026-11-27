@@ -8,7 +8,7 @@
 %define go_import_path  github.com/gobwas/ws
 
 Name:           go-github-gobwas-ws
-Version:        1.4.0
+Version:        1.5.0
 Release:        %autorelease
 Summary:        Tiny WebSocket library for Go.
 License:        MIT
