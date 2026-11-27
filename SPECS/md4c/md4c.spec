@@ -5,7 +5,7 @@
 # SPDX-License-Identifier: MulanPSL-2.0
 
 Name:           md4c
-Version:        0.5.3
+Version:        0.6.0
 Release:        %autorelease
 Summary:        Markdown for C
 License:        MIT
