@@ -7,7 +7,7 @@
 %define go_import_path  github.com/opencontainers/selinux
 
 Name:           go-github-opencontainers-selinux
-Version:        1.11.0
+Version:        1.15.1
 Release:        %autorelease
 Summary:        Common SELinux implementation for Go
 License:        Apache-2.0
