@@ -5,12 +5,12 @@
 # SPDX-License-Identifier: MulanPSL-2.0
 
 Name:           mpv
-Version:        0.41.0
+Version:        0.42.0
 Release:        %autorelease
 Summary:        Movie player playing most video formats and DVDs
 License:        GPL-2.0-or-later AND LGPL-2.1-or-later AND BSD-2-Clause AND BSD-3-Clause AND ISC AND MIT
 URL:            https://github.com/mpv-player/mpv
-#!RemoteAsset:  sha256:ee21092a5ee427353392360929dc64645c54479aefdb5babc5cfbb5fad626209
+#!RemoteAsset:  sha256:bcfebbfa2b65a6d88dc97ea18117831072373e38b5785a2afb874ed4df5070dd
 Source0:        https://github.com/mpv-player/mpv/archive/refs/tags/v%{version}.tar.gz
 BuildSystem:    meson
 
