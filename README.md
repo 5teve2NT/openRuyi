@@ -8,3 +8,5 @@ This openRuyi Repo contains build configurations and scripts for all packages ma
 ## Further Readings
 
 Please check our project wiki.
+
+<!-- rig4 probe: lts docs 20261127-191736 -->
