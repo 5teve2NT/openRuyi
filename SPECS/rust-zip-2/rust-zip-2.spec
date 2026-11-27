@@ -4,16 +4,16 @@
 # SPDX-License-Identifier: MulanPSL-2.0
 
 %global crate_name zip
-%global full_version 2.4.2
+%global full_version 2.6.1
 %global pkgname zip-2
 
 Name:           rust-zip-2
-Version:        2.4.2
+Version:        2.6.1
 Release:        %autorelease
 Summary:        Rust crate "zip"
 License:        MIT
 URL:            https://github.com/zip-rs/zip2.git
-#!RemoteAsset:  sha256:fabe6324e908f85a1c52063ce7aa26b68dcb7eb6dbc83a2d148403c9bc3eba50
+#!RemoteAsset:  sha256:1dcb24d0152526ae49b9b96c1dcf71850ca1e0b882e4e28ed898a93c41334744
 Source:         https://static.crates.io/crates/%{crate_name}/%{full_version}/download#/%{name}-%{version}.tar.gz
 BuildArch:      noarch
 BuildSystem:    rustcrates
