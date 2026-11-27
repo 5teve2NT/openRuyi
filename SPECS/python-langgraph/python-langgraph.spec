@@ -7,13 +7,13 @@
 %global srcname langgraph
 
 Name:           python-%{srcname}
-Version:        1.2.4
+Version:        1.2.24
 Release:        %autorelease
 Summary:        Stateful graph framework for building agents
 License:        MIT
 URL:            https://github.com/langchain-ai/langgraph
 VCS:            git:https://github.com/langchain-ai/langgraph.git
-#!RemoteAsset:  sha256:5df076973a2d23efb13eceb279d1e5b46feebcbbeded0a86a2ef669abd9e4399
+#!RemoteAsset:  sha256:86b0dd611b7201cb393da2de0e064029c1bef520f11a5e6ee04be53c2a815bc7
 Source0:        https://files.pythonhosted.org/packages/source/l/%{srcname}/%{srcname}-%{version}.tar.gz
 BuildArch:      noarch
 BuildSystem:    pyproject
